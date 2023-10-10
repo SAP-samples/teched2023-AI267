@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AI267)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AI267)
 
-# Session ID - Session Title
+# AI267 - Empower AI Embedding into SAP S/4HANA with ISLM 
 
 ## Description
 
