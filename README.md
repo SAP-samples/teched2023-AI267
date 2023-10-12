@@ -20,6 +20,8 @@ This technical workshop will provide a deep dive into ISLM, focusing on its role
 3)	**Embedding AI into applications**: Understanding how application developers leverage ISLM for creating, registering, publishing, and managing scenarios.
 4)	**Lifecycle Streamlining**: Discovering how ISLM simplifies and streamlines essential lifecycle operations, including training and deployment, to enhance efficiency.
 
+![](Overview.png)
+
 By the end of this workshop, participants will gain a comprehensive understanding of how ISLM empowers organizations to smoothly transition from data science experimentation to real-world AI application development, all within the SAP S/4HANA environment.
 
 **Note**: Data science and AI Content development is out of the scope of this session. In this workshop, we will explore ML lifecycle management process. 
