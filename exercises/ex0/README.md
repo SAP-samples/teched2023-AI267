@@ -28,7 +28,7 @@ Gradient Boosting regression model type provides a more accurate modeling result
    ```
    <br/>
    Input the username and password provided by the moderator.
-   Click on My Home section and choose the Intelligent Scenario app.
+   Click on **My Home** section and choose the **Intelligent Scenario** app.
 
 <br>![](/exercises/ex0/images/1.png)
 
@@ -71,7 +71,64 @@ CDS views are generated for the intelligent scenario to allow easy access to the
 
 Well done, you just created your first Intelligent Scenario.
 
+
+## 2. Operating the Intelligent Scenario
+Once the Intelligent Scenario is published, the Intelligent Scenario Management app helps you to train, monitor the model quality and activate the model for productive usage.
+In this section, you will use the Intelligent Scenario Management app to perform ML operations. 
+
+1. Open the Fiori Launchpad URL
+   ```
+   https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
+   ```
+   <br/>
+   Input the username and password provided by the moderator.
+   Click on **My Home** section and choose the **Intelligent Scenario Management** app.
+   <br>![](/exercises/ex0/images/13.png)
+
+2. Search the **First-Class Seats Occupied** scenario created by you and navigate to the details page by clicking the `>` icon.
+   <br>![](/exercises/ex0/images/13.png)
+
+3. Select the Model and click on the **Train button** to trigger the training.
+   <br>![](/exercises/ex0/images/13.png)
+4. In the Model section, view the Dataset Record Count. Click on **Train** button.
+   <br>![](/exercises/ex0/images/13.png)
+5. New Model Version will be created in **Scheduled** status.
+   <br>![](/exercises/ex0/images/13.png)
+6. Monitor the status of the **Model Version** and check the status changes to **Training**.
+   <br>![](/exercises/ex0/images/13.png)
+7. Monitor the status of the Model Version and check the status changes to **Ready**.
+   <br>![](/exercises/ex0/images/13.png)
+8. Click on `>` icon to view Model Version Report.
+   <br>![](/exercises/ex0/images/13.png)
+9. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
+   are affecting the predictions.<br>
+   Choose the back icon <br>![](/exercises/ex0/images/13.png) to navigate back to Model Versions screen.
+10. Activate the model version to return predictions. Select the Model Version and click the **Activate** button.
+    <br>![](/exercises/ex0/images/13.png)
+
+   
+Well done, you just Operated the Intelligent Scenario.
+
+## 3. Visualizing Model Version Predictions
+
+In this step, you will use the ABAP GUI tool to view the model's predictions.
+
+1. Logon to system **ODE** open transaction **/nSE38**
+   <br>![](/exercises/ex0/images/13.png)
+
+2. Search for report **RUT_DDLS_DATA_PREVIEW** and click on Execute 
+   <br>![](/exercises/ex0/images/13.png)
+
+3. Enter the ISLM generated CDS view of created Intelligent Scenario to view predictions from trained model. 
+   **CDS View will have following name <INTELLIGENT_SCENARIO_NAME>_CDS01.** 
+   Enter CDS View Name in Entity Name field and click on Execute.
+   <br>![](/exercises/ex0/images/13.png)
+
+4. You can scroll down and see the model's keys in the first four columns: **Airline Code, Flight Connection Number, Flight Date and Booking number.** 
+The column **GB_SCORE_SEATSOCC_F** column has the predicted value of the occupied seats. 
+<br>![](/exercises/ex0/images/13.png)
+ 
 ## Summary
 
 Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 1 - Exercise 1 Description](../ex0/README.md)
