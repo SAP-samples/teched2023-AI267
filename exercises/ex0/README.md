@@ -22,12 +22,52 @@ SAP HANA APL lets you build and apply different types of predictive models, such
 Gradient Boosting regression model type provides a more accurate modeling result than the legacy regression model.  
 
 
-1.	Open the Fiori Launchpad [URL](https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home)  <br/>
+1.	Open the Fiori Launchpad URL
+   ```
+   https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
+   ```
+   <br/>
    Input the username and password provided by the moderator.
    Click on My Home section and choose the Intelligent Scenario app.
 
 <br>![](/exercises/ex0/images/1.png)
 
+2. Click the **Create** button and choose **Embedded**.
+   In Embedded approach, a business application, for example SAP S/4HANA runs in the same stack as its machine learning provider SAP HANA machine learning with the analytics libraries SAP HANA Automated Predictive Library (APL) or SAP HANA Predictive Analysis Library (PAL).
+<br>![](/exercises/ex0/images/2.png)
+
+3. Click on **Do Not Show Again and Close** in the Onboarding Dialog <br>![](/exercises/ex0/images/3.png)
+4. Provide the required information in the screen:
+	1. **Intelligent Scenario Name**: Enter a unique name starting with Z, such as `Z_SEATOCC_FTCLAS_###` where **###** is your attendee id.
+	2. **Intelligent Scenario Description**: Enter a description for the Intelligent Scenario. Intelligent Scenario Type, Algorithm and Machine Learning Library is automatically populated. 
+	<br>![](/exercises/ex0/images/4.png)
+
+5. Click on the **Add Model** button.
+	<br>![](/exercises/ex0/images/5.png)
+
+ 6. The **APL Regression Model** screen will pop up. Provide information as mentioned below:
+	1. **Name**: Enter a model name starting with Z.
+	2. **Description**: Enter a description.
+    <br>![](/exercises/ex0/images/6.png)
+	4. **Training Dataset**: **`ZISLM_SFLIGHT_TRAIN_CDS`**
+	5. **Apply Dataset**: **`ZISLM_SFLIGHT_APPLY_CDS`**  (Note that apply dataset is different from training dataset)
+      <br>![](/exercises/ex0/images/7.png)
+	6. **Target**: `SEATSOCC_F`. This is the variable that should be predicted by other variables.
+	7. **Max Reason Code**: `1` <br>
+    Click on the **Add** button.<br>![](/exercises/ex0/images/8.png)
+7. The scenario is now created in Draft Status. View the Input and Output fields to train the model in the **Input and Outputs Tabs** respectively.Input Tab displays the key, input, and target fields. 
+The Input variable is considered for modelling. The Key variable is a key field of the dataset and is also considered for modelling. The Target variable is the variable whose values are to be modelled and predicted by other variables. 
+Output tab displays the Key, Target, and Prediction fields. 
+The Prediction variable includes the calculation result.
+<br>![](/exercises/ex0/images/9.png)
+
+8. Scenario is now ready to be published. Click on **Publish** button. You will receive a message that Intelligent Scenario is published.<br>![](/exercises/ex0/images/10.png)
+9. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name and Status = Published**.
+    <br>![](/exercises/ex0/images/11.png)
+10. Navigate to the details page by clicking the `>` icon.  <br>![](/exercises/ex0/images/12.png)
+11. Click on **Apply Setting** Tab and copy the CDS View name.
+CDS views are generated for the intelligent scenario to allow easy access to the predictions
+<br>![](/exercises/ex0/images/13.png)
 
 ## Summary
 
