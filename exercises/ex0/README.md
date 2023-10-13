@@ -107,22 +107,23 @@ Well done, you just Operated the Intelligent Scenario.
 
 ## 3. Visualizing Model Version Predictions
 
-In this step, you will use the ABAP GUI tool to view the model's predictions.
+In this step, you will use the ABAP GUI tool to view the model's predictions.Open SAP Logon and logon to system **HE4** using the user and password provided by the moderator.  
 
-1. Logon to system **ODE** open transaction **/nSE38**
-   <br>![](/exercises/ex0/images/13.png)
+1. Open transaction **/nSE38**
+   <br>![](/exercises/ex0/images/24.png)
 
 2. Search for report **RUT_DDLS_DATA_PREVIEW** and click on Execute 
-   <br>![](/exercises/ex0/images/13.png)
+   <br>![](/exercises/ex0/images/25.png)
 
-3. Enter the ISLM generated CDS view of created Intelligent Scenario to view predictions from trained model. 
+3. Enter the ISLM generated CDS view of created Intelligent Scenario to view predictions from trained model. This CDS View was copied in the first step during creation of the Intelligent Scenario. 
    **CDS View will have following name <INTELLIGENT_SCENARIO_NAME>_CDS01.** 
-   Enter CDS View Name in Entity Name field and click on Execute.
-   <br>![](/exercises/ex0/images/13.png)
+   Enter CDS View Name in Entity Name field and click on **Execute**.
+   <br>![](/exercises/ex0/images/26.png)
 
-4. You can scroll down and see the model's keys in the first four columns: **Airline Code, Flight Connection Number, Flight Date and Booking number.** 
+4. You can scroll down and see the model's keys in the first four columns: **Airline Code, Flight Connection Number, Flight Date and Booking number.**
+Column **SEATSOCC_F** has the actual value of the seats occupied.
 The column **GB_SCORE_SEATSOCC_F** column has the predicted value of the occupied seats. 
-<br>![](/exercises/ex0/images/13.png)
+<br>![](/exercises/ex0/images/27.png)
  
 ## Summary
 
