@@ -80,25 +80,26 @@ In this section, you will use the Intelligent Scenario Management app to perform
    Click on **My Home** section and choose the **Intelligent Scenario Management** app
    <br>![](/exercises/ex0/images/14.png)
 
-3. Search the **First-Class Seats Occupied** scenario created by you and navigate to the details page by clicking the `>` icon.
+2. Search the **First-Class Seats Occupied** scenario created by you and navigate to the details page by clicking the `>` icon.
    <br>![](/exercises/ex0/images/15.png)
 
-4. Select the Model and click on the **Train button** to trigger the training.
+3. Select the Model and click on the **Train button** to trigger the training.
    <br>![](/exercises/ex0/images/16.png)
-5. In the Model section, view the Dataset Record Count. Click on **Train** button.
+4. In the Model section, view the Dataset Record Count. Click on **Train** button.
    <br>![](/exercises/ex0/images/17.png)
-6. New Model Version will be created in **Scheduled** status.
+5. New Model Version will be created in **Scheduled** status.
    <br>![](/exercises/ex0/images/18.png)
-7. Monitor the status of the **Model Version** and check the status changes to **Training**.
+6. Monitor the status of the **Model Version** and check the status changes to **Training**.
    <br>![](/exercises/ex0/images/19.png)
-8. Monitor the status of the Model Version and check the status changes to **Ready**.
+7. Monitor the status of the Model Version and check the status changes to **Ready**.
    <br>![](/exercises/ex0/images/20.png)
-9. Click on <h1>`>`</h1> icon to view Model Version Report.
+8. Click on <h1>`>`</h1> icon to view Model Version Report.
    <br>![](/exercises/ex0/images/21.png)
-10. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
-   are affecting the predictions.<br>
-   Choose the back icon <br>![](/exercises/ex0/images/22.png) to navigate back to Model Versions screen.
-11. Activate the model version to return predictions. Select the Model Version and click the **Activate** button.
+9. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
+   are affecting the predictions.
+   <br>![](/exercises/ex0/images/22.png)
+    <br>Choose the back icon <h1>`<`</h1>  to navigate back to Model Versions screen.
+10. Activate the model version to return predictions. Select the Model Version and click the **Activate** button.
     <br>![](/exercises/ex0/images/23.png)
 
    
