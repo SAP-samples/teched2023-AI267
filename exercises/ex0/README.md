@@ -93,7 +93,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
    <br>![](/exercises/ex0/images/19.png)
 8. Monitor the status of the Model Version and check the status changes to **Ready**.
    <br>![](/exercises/ex0/images/20.png)
-9. Click on ![](/exercises/ex0/images/Back.png) icon to view Model Version Report.
+9. Click on <h1>`>`</h1> icon to view Model Version Report.
    <br>![](/exercises/ex0/images/21.png)
 10. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
    are affecting the predictions.<br>
