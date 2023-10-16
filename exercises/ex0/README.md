@@ -107,8 +107,10 @@ In this section, you will use the Intelligent Scenario Management app to perform
 9. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
    are affecting the predictions.
    <br>![](/exercises/ex0/images/22.png)
+   **Root Mean Square Error(RMSE):** RMSE is the square root of mean squared error. RMSE tells us how close the actual datapoints are to predictions made by the model.
+   
     <br>Choose the back icon **'<'** to navigate back to Model Versions screen.
-10. Activate the model version to return predictions. Select the Model Version and click the **Activate** button.
+11. Activate the model version to return predictions. Select the Model Version and click the **Activate** button.
     <br>![](/exercises/ex0/images/23.png)
 
    
