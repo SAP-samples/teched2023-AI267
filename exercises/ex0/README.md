@@ -43,20 +43,17 @@ SAP HANA APL lets you build and apply different types of predictive models, such
 
  6. The **APL Regression Model** screen will pop up. Provide information as mentioned below:
 	1. **Name**: Enter a model name starting with Z.
-	2. **Description**: Enter a description.
-    <br>![](/exercises/ex0/images/6.png)
-	4. **Training Dataset**: **`ZISLM_SFLIGHT_TRAIN_CDS`**. Dataset to be used for training the model.
-	5. **Apply Dataset**: **`ZISLM_SFLIGHT_APPLY_CDS`**. Dataset to be used for prediction  (Note that apply dataset is 
-            different from training dataset).
-      <br>![](/exercises/ex0/images/7.png)
-	6. **Target**: `SEATSOCCF`. Field whose value you want to predict.
-        7. Apply output configuration has the selected metrics that are added in the intelligent scenario output and used 
-           for prediction.
-	8. **Max Reason Code**: `1`. Number of reason codes you want to generate.<br>
-            Reason codes are variables whose values have the most influence in a score-based 
+	2. **Description**: Enter a description.<br>![](/exercises/ex0/images/6.png)
+	3. **Training Dataset**: **`ZISLM_SFLIGHT_TRAIN_CDS`**.  Dataset to be used for training the model.
+	4. **Apply Dataset**: **`ZISLM_SFLIGHT_APPLY_CDS`**. Dataset to be used for prediction  (Note that apply dataset is 
+            different from training dataset).<br>![](/exercises/ex0/images/7.png)
+	5. **Target**: `SEATSOCCF`. Field whose value you want to predict.
+	6. **Max Reason Code**: `1`. Number of reason codes you want to generate.<br>
+           Reason codes are variables whose values have the most influence in a score-based 
             decision (typically a risk score). The variables for which the contribution is 
             the most differential are selected as the most important reason codes. <br>
-    Click on the **Add** button.<br>![](/exercises/ex0/images/8.png)
+Apply output configuration has the selected metrics that are added in the intelligent scenario output and used for prediction.    
+ Click on the **Add** button.<br>![](/exercises/ex0/images/8.png)
 7. The scenario is now created in Draft Status. View the Input and Output fields to train the model in the **Input and Outputs Tabs** respectively.Input Tab displays the key, input, and target fields. 
 The Input variable is considered for modelling. The Key variable is a key field of the dataset and is also considered for modelling. The Target variable is the variable whose values are to be modelled and predicted by other variables. 
 Output tab displays the Key, Target, and Prediction fields. 
