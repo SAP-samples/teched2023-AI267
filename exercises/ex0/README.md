@@ -139,8 +139,8 @@ In this step, you will use the ABAP GUI tool to view the model's predictions.Ope
    <br>![](/exercises/ex0/images/26.png)
 
 4. You can scroll down and see the model's keys in the first four columns: **Airline Code, Flight Connection Number, Flight Date and Booking number.**
-Column **SEATSOCC_F** has the actual value of the seats occupied.
-The column **GB_SCORE_SEATSOCC_F** column has the predicted value of the occupied seats. 
+Column **SEATSOCCF** has the actual value of the seats occupied.<br>
+The column **GB_SCORE_SEATSOCCF** column has the predicted value of the occupied seats. 
 <br>![](/exercises/ex0/images/27.png)
 
  ### Well done, you just visualized your trained model predictions..!
