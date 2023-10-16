@@ -50,7 +50,7 @@ In this workshop, our focus will be on a real-world use case example where a lea
 2)	**Predict the plane type of an aircraft** <br/>
    This use case involves predicting the aircraft type using the SAP BTP-based reusable SAP AI Business Service, Data Attribute Recommendation Service (DAR), powered by an ML algorithm.  
 
-<br>
+
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
