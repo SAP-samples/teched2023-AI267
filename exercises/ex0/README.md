@@ -140,9 +140,9 @@ In this step, you will use the ABAP GUI tool to view the model's predictions.Ope
    Enter CDS View Name in Entity Name field and click on **Execute**.
    <br>![](/exercises/ex0/images/26.png)
 
-4. You can scroll down and see the model's keys in the first four columns: **Airline Code, Flight Connection Number, Flight Date and Booking number.**
+4. You can scroll down and see the model's keys in the first four columns: **Airline Code, Flight Connection Number, Flight Date and Booking number.** <br>
 Column **SEATSOCCF** has the actual value of the seats occupied.<br>
-The column **GB_SCORE_SEATSOCCF** column has the predicted value of the occupied seats. 
+Column **GB_SCORE_SEATSOCCF** column has the predicted value of the occupied seats.
 <br>![](/exercises/ex0/images/27.png)
 
  ### Well done, you just visualized your trained model predictions..!
