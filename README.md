@@ -11,7 +11,15 @@ ISLM standardizes the integration and consumption of intelligent scenarios withi
 ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re-)training and deployment as well as activation of the model that should be consumed by the business application, directly within SAP S/4HANA. ML ops in ISLM is supported in the context of ML use case(Intelligent Scenario). 
 
 ## Overview
+![](Overview.png) <br>
 
+**Business User**:  The end user who interacts with the business application and use the predictions from machine learning for the business purpose.<br>
+**Business Administrator**:   A domain expert or analytics specialist, who can perform model trainings based on business context, view model quality, and activate a model for production usage.<br>
+**Technical Administrator**:  A system administrator who can perform the configurations of connectivity between different entities as well as maintains the technical configurations of the system.<br>
+**ABAP Developer**: A developer who can create ABAP artifacts required for Intelligent Scenario registration.<br>
+**Intelligent Scenario Owner**: A owner who create Intelligent Scenario, review and publish.
+
+<br>
 In the rapidly evolving landscape of AI and machine learning, Intelligent Scenario Lifecycle Management (ISLM) has emerged as a critical framework that bridges the gap between data science endeavors and practical application development. ISLM plays a pivotal role in streamlining and optimizing the adoption of AI solutions, particularly within the SAP S/4HANA environment.
 
 This technical workshop will provide a deep dive into ISLM, focusing on its role as a catalyst for efficient AI content development and integration within SAP S/4HANA. The scope of this workshop includes:
@@ -20,7 +28,7 @@ This technical workshop will provide a deep dive into ISLM, focusing on its role
 3)	**Embedding AI into applications**: Understanding how application developers leverage ISLM for creating, registering, publishing, and managing scenarios.
 4)	**Lifecycle Streamlining**: Discovering how ISLM simplifies and streamlines essential lifecycle operations, including training and deployment, to enhance efficiency.
 
-![](Overview.png)
+
 
 By the end of this workshop, participants will gain a comprehensive understanding of how ISLM empowers organizations to smoothly transition from data science experimentation to real-world AI application development, all within the SAP S/4HANA environment.
 
