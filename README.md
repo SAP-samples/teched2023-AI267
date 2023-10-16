@@ -45,16 +45,12 @@ In this workshop, our focus will be on a real-world use case example where a lea
 
 
 1)	**Predict the airplane seats that are being occupied in the first class of a flight** <br/>
-   In this specific use case, our goal is to forecast the occupancy of first-class seats on flights by harnessing the power of SAP HANA's Machine Learning (ML) algorithm.  This approach is often referred to as '**embedded ML**,' where the ML provider and the business application exist within the same stack.
+   In this specific use case, our goal is to forecast the occupancy of first-class seats on flights by harnessing the power of SAP HANA's Machine Learning (ML) algorithm.  
    
 2)	**Predict the plane type of an aircraft** <br/>
-   This use case involves predicting the aircraft type using the SAP BTP-based reusable SAP AI Business Service, Data Attribute Recommendation Service (DAR), powered by an ML algorithm.  This approach is commonly known as '**side-by-side**,' where the ML provider and the business application operate within separate stacks.
+   This use case involves predicting the aircraft type using the SAP BTP-based reusable SAP AI Business Service, Data Attribute Recommendation Service (DAR), powered by an ML algorithm.  
 
-
-    
-
-
-
+<br>
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
