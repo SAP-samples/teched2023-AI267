@@ -85,6 +85,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
+   Enter the user details provided by speakers to login.<br>
    Click on **My Home** section and choose the **Intelligent Scenario Management** app
    <br>![](/exercises/ex0/images/14.png)
 
