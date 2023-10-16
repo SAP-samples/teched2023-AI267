@@ -4,8 +4,9 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session called AI267 - Empower AI Embedding into SAP S/4HANA with ISLM.
-
+This repository contains the material for the SAP TechEd 2023 session called AI267 - Empower AI Embedding into SAP S/4HANA with ISLM.<br>
+In the rapidly evolving landscape of AI and machine learning, Intelligent Scenario Lifecycle Management (ISLM) has emerged as a critical framework that bridges the gap between data science endeavors and practical application development. ISLM plays a pivotal role in streamlining and optimizing the adoption of AI solutions, particularly within the SAP S/4HANA environment.
+<br>
 ISLM standardizes the integration and consumption of intelligent scenarios within SAP S/4HANA for both embedded as well as side-by-side scenarios.
 
 ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re-)training and deployment as well as activation of the model that should be consumed by the business application, directly within SAP S/4HANA. ML ops in ISLM is supported in the context of ML use case(Intelligent Scenario). 
@@ -20,7 +21,6 @@ ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re
 **Intelligent Scenario Owner**: A owner who create Intelligent Scenario, review and publish.
 
 <br>
-In the rapidly evolving landscape of AI and machine learning, Intelligent Scenario Lifecycle Management (ISLM) has emerged as a critical framework that bridges the gap between data science endeavors and practical application development. ISLM plays a pivotal role in streamlining and optimizing the adoption of AI solutions, particularly within the SAP S/4HANA environment.
 
 This technical workshop will provide a deep dive into ISLM, focusing on its role as a catalyst for efficient AI content development and integration within SAP S/4HANA. The scope of this workshop includes:
 1)	**Introduction to ISLM**: Understanding the fundamentals of ISLM and its significance in the AI ecosystem.
