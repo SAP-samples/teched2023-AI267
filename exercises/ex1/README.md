@@ -154,7 +154,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
     <br>![](/exercises/ex1/images/42.png)
 18. In the dialog Activate for All Users, choose **Activate For All**.
     <br>![](/exercises/ex1/images/43.png)
-19. Monitor that the Deployment has Active Indicator.
+19. Monitor that the Deployment has **Active for all** Indicator.
     <br>![](/exercises/ex1/images/44.png)
 
 ### Well done, you just Used Intelligent Scenario Management app to train, view model quality, deploy and activate the model
