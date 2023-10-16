@@ -16,9 +16,9 @@ By the end of this exercise, participants will have gained hands-on experience i
 ## 1. Create Intelligent Scenario
 The Intelligent Scenarios app is used to create intelligent scenarios, review, and publish them, and to make them available in the Intelligent Scenario Management app.
 
-For this use case we will use regression model with Gradient Boosting algorithm.
-SAP HANA APL lets you build and apply different types of predictive models, such as classification, regression, and time series forecasting models. 
-Gradient Boosting regression model type provides a more accurate modeling result than the legacy regression model.  
+For this use case we will use regression model with Gradient Boosting algorithm. <br>
+
+SAP HANA APL lets you build and apply different types of predictive models, such as classification, regression, and time series forecasting models. Gradient Boosting regression model type provides a more accurate modeling result than the legacy regression model.  
 
 
 1.	Open the Fiori Launchpad URL
