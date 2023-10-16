@@ -40,26 +40,27 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-   Input the username and password provided by the moderator.
+    Enter the user details provided by speakers to login.<br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.
    <br>![](/exercises/ex1/images/8.png)
-9. Click the **Create** button and choose->**Side-by Side** 
+9. Click the **Create** button and choose->**Side-by Side**
+   This approach is commonly known as '**side-by-side**,' where the ML provider and the business application operate within separate stacks.
    <br>![](/exercises/ex1/images/9.png)
-10. Provide the required information in the screen:
+11. Provide the required information in the screen:
 	1. **Intelligent Scenario Name**: Enter a unique name starting with Z, such as `Z_FI_PLANTYPE_###` where **###** is your attendee id.
 	2. **Intelligent Scenario Description**: Enter a description for the Intelligent Scenario.
 	3. **Intelligent Scenario Type** as **Data Attribute Recommendation**  
    <br>![](/exercises/ex1/images/10.png)
-11. Select **Prediction Class** from value help 
+12. Select **Prediction Class** from value help 
     <br>![](/exercises/ex1/images/11.png)
-12. Click on **OK** in the information box
+13. Click on **OK** in the information box
     <br>![](/exercises/ex1/images/12.png)
-13. Select the prediction class created by you in the previous section
+14. Select the prediction class created by you in the previous section
     <br>![](/exercises/ex1/images/13.png)
-14. Scenario is now ready to be published. Click on **Publish** button. You will receive a message that Intelligent Scenario is 
+15. Scenario is now ready to be published. Click on **Publish** button. You will receive a message that Intelligent Scenario is 
     published.
     <br>![](/exercises/ex1/images/14.png)
-15. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name** and **Status = Published**. 
+16. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name** and **Status = Published**. 
     <br>![](/exercises/ex1/images/15.png)
 
 ### Well done, you just created your first Intelligent Scenario.
