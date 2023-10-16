@@ -66,8 +66,8 @@ The Prediction variable includes the calculation result.
 CDS views are generated for the intelligent scenario to allow easy access to the predictions
 <br>![](/exercises/ex0/images/13.png)
 
-Well done, you just created your first Intelligent Scenario.
-
+### Well done, you just created your first Intelligent Scenario.
+<br>
 
 ## 2. Operating the Intelligent Scenario
 Once the Intelligent Scenario is published, the Intelligent Scenario Management app helps you to train, monitor the model quality and activate the model for productive usage.
@@ -103,7 +103,8 @@ In this section, you will use the Intelligent Scenario Management app to perform
     <br>![](/exercises/ex0/images/23.png)
 
    
-Well done, you just Operated the Intelligent Scenario.
+### Well done, you just Operated the Intelligent Scenario by training your first model.
+<br>
 
 ## 3. Visualizing Model Version Predictions
 
@@ -124,8 +125,10 @@ In this step, you will use the ABAP GUI tool to view the model's predictions.Ope
 Column **SEATSOCC_F** has the actual value of the seats occupied.
 The column **GB_SCORE_SEATSOCC_F** column has the predicted value of the occupied seats. 
 <br>![](/exercises/ex0/images/27.png)
- 
-## Summary
 
-Now that you have ... 
-Continue to - [Exercise 2 - Predict the plane type of an aircraft](../ex1/README.md)
+ ### Well done, you just visualized your trained model predictions..!
+<br>
+
+## Summary
+Congratulations! You have successfully completed the Exercise 1.
+Now Continue to - [Exercise 2 - Predict the plane type of an aircraft](../ex1/README.md)
