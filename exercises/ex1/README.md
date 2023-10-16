@@ -43,7 +43,7 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
     Enter the user details provided by speakers to login.<br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.
    <br>![](/exercises/ex1/images/8.png)
-9. Click the **Create** button and choose->**Side-by Side**
+9. Click the **Create** button and choose->**Side-by Side**.
    This approach is commonly known as '**side-by-side**,' where the ML provider and the business application operate within separate stacks.
    <br>![](/exercises/ex1/images/9.png)
 11. Provide the required information in the screen:
@@ -63,12 +63,12 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
 16. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name** and **Status = Published**. 
     <br>![](/exercises/ex1/images/15.png)
 
-### Well done, you just created your first Intelligent Scenario.
+### Well done, you just created your first Side-by-side Intelligent Scenario.
 <br>
 
 ## 2. Set up the connection for Intelligent Scenario to connect to BTP based ML service
 
-Once the Intelligent Scenario is published, we need to maintain the connection for an intelligent scenario in SAP S/4 HANA with the Data Attribute Recommendation service in BTP. Moderator has provisioned the ML Service in BTP and will share the service key to setup the connection. 
+Once the Intelligent Scenario is published, we need to maintain the connection for an intelligent scenario in SAP S/4 HANA with the Data Attribute Recommendation service in BTP. Speaker has provisioned the ML Service in BTP and will share the **service key** to setup the connection. 
 
 1. Open **SAP Logon** and logon to **HE4 400**<br>
    Open transaction **/nSPRO**<br>
@@ -107,7 +107,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-   Input the username and password provided by the moderator.
+   Enter the user details provided by speakers to login.<br>
    Click on **My Home** section and choose the **Intelligent Scenario Management** app.
    <br>![](/exercises/ex1/images/27.png)
 2. Search the **Plane type** scenario created by you and navigate to the details page by clicking the **>** icon. 
@@ -116,7 +116,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
    <br>![](/exercises/ex1/images/29.png)
 4. Train dialog opens.
    The values for Parameters will be defaulted and do not change it.
-   The Artifacts values for dataset and datasetSchema to be copied from the file XXX
+   The Artifacts values for dataset and datasetSchema will be provided by the speaker.
    <br>![](/exercises/ex1/images/30.png)
 5. Click on **Train** button
    <br>![](/exercises/ex1/images/31.png)
@@ -125,7 +125,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
 7. Monitor the status of Training and check the status changes to **Training**
    <br>![](/exercises/ex1/images/33.png)
 8. Monitor the status of Training and check the status changes to **Completed**. Note that training can take approximately 
-   **10-15 minutes** to complete.
+   **5 minutes** to complete.
    <br>![](/exercises/ex1/images/34.png)
 9. Click on **>** icon to view Training Report.
    <br>![](/exercises/ex1/images/35.png)
@@ -133,19 +133,25 @@ In this section, you will use the Intelligent Scenario Management app to perform
     Click on **Debrief** tab.
     <br>![](/exercises/ex1/images/36.png)
 11. View target metrics and feature contribution scores in **Debrief**.
+    
+    **Feature contribution score:** Estimate of how much the model depends on each feature. The higher the contribution 
+     score, the more important the feature is.
+
+     **Accuracy, F1Score, Precision and Recall** are classificaiton metrics. The higher the better.
     <br>![](/exercises/ex1/images/37.png)
-12. Click on **Deploy** Button
+    
+13. Click on **Deploy** Button
     <br>![](/exercises/ex1/images/38.png)
-13. Click on **Deploy and Monitor** Button
+14. Click on **Deploy and Monitor** Button
     <br>![](/exercises/ex1/images/39.png)
-14. New Deployment will be created in **Scheduled** status.
+15. New Deployment will be created in **Scheduled** status.
     <br>![](/exercises/ex1/images/40.png)
-15. Monitor the status of Deployment and check the status changes to **Deployment Pending**.
+16. Monitor the status of Deployment and check the status changes to **Deployment Pending**.
     <br>![](/exercises/ex1/images/41.png)
-16. Monitor the status of Deployment and check the status changes to **Deployed**. Note that Deployments can take 
+17. Monitor the status of Deployment and check the status changes to **Deployed**. Note that Deployments can take 
     approximately **10 minutes** to be Deployed.
     <br>![](/exercises/ex1/images/42.png)
-17. Activate the deployment to run inference. Select the Deployment and click on **Activate** button and choose **For All** 
+18. Activate the deployment to run inference. Select the Deployment and click on **Activate** button and choose **For All** 
     option.
     <br>![](/exercises/ex1/images/43.png)
 
