@@ -53,6 +53,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 
 - [Exercise 1 - Predict the airplane seats that are being occupied in the first class of a flight](exercises/ex0/)
 - [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
+- [Summary](exercises/ex2/)
 
   
 **OR** Link to the Tutorial Navigator for example...
