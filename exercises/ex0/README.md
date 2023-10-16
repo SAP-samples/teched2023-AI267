@@ -128,4 +128,4 @@ The column **GB_SCORE_SEATSOCC_F** column has the predicted value of the occupie
 ## Summary
 
 Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex0/README.md)
+Continue to - [Exercise 2 - Predict the plane type of an aircraft](../ex1/README.md)
