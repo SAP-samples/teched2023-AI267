@@ -237,6 +237,11 @@ In this section, you will use the Intelligent Scenario Management app to perform
 <br>
 
 ## Summary
-Congratulations! You have successfully completed the Exercise 2.
-Now Continue to - [Summary](../ex2/README.md)
+![GraduationCapThumbsUpGIF](https://github.com/SAP-samples/teched2023-AI267/assets/43869146/f2c183fa-2a65-43db-8013-de1db1f1b5b0) <br>
+
+You have successfully completed the Exercise 2. <br>
+Now Continue to - 
+- [Additional Exercise](../ex3/README.md)
+          OR
+- [Summary](../ex2/README.md)  
 
