@@ -74,7 +74,7 @@ The Prediction variable includes the calculation result.
 CDS views are generated for the intelligent scenario to allow easy access to the predictions
 <br>![](/exercises/ex0/images/13.png)
 
-### Well done, you just created your first Intelligent Scenario.
+### Well done, you just created your first embedded Intelligent Scenario.
 <br>
 
 ## 2. Operating the Intelligent Scenario
