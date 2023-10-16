@@ -92,7 +92,60 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
 ### Well done, you just Set up the connection for Intelligent Scenario to connect to BTP based ML service.
 <br>
 
+## 3. Use Intelligent Scenario Management app to train, view model quality, deploy and activate the model
+Once the Intelligent Scenario is published, the Intelligent Scenario Management app helps you to train, monitor the model quality, deploy, and activate the model for productive usage.
+In this section, you will use the Intelligent Scenario Management app to perform ML operations. 
 
+1. Open the Fiori Launchpad URL
+   ```
+   https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
+   ```
+   Input the username and password provided by the moderator.
+   Click on **My Home** section and choose the **Intelligent Scenario Management** app.
+   <br>![](/exercises/ex1/images/27.png)
+2. Search the **Plane type** scenario created by you and navigate to the details page by clicking the **>** icon. 
+    <br>![](/exercises/ex1/images/28.png)
+3. Select the Version **3.0** and click on the **Train** button to trigger the training.
+   <br>![](/exercises/ex1/images/29.png)
+4. Train dialog opens.
+   The values for Parameters will be defaulted and do not change it.
+   The Artifacts values for dataset and datasetSchema to be copied from the file XXX
+   <br>![](/exercises/ex1/images/30.png)
+5. Click on **Train** button
+   <br>![](/exercises/ex1/images/31.png)
+6. New Training will be created in **Scheduled** status.
+   <br>![](/exercises/ex1/images/32.png)
+7. Monitor the status of Training and check the status changes to **Training**
+   <br>![](/exercises/ex1/images/33.png)
+8. Monitor the status of Training and check the status changes to **Completed**. Note that training can take approximately 
+   **10-15 minutes** to complete.
+   <br>![](/exercises/ex1/images/34.png)
+9. Click on **>** icon to view Training Report.
+   <br>![](/exercises/ex1/images/35.png)
+10. View the information in header section. 
+    Click on **Debrief** tab.
+    <br>![](/exercises/ex1/images/36.png)
+11. View target metrics and feature contribution scores in **Debrief**.
+    <br>![](/exercises/ex1/images/37.png)
+12. Click on **Deploy** Button
+    <br>![](/exercises/ex1/images/38.png)
+13. Click on **Deploy and Monitor** Button
+    <br>![](/exercises/ex1/images/39.png)
+14. New Deployment will be created in **Scheduled** status.
+    <br>![](/exercises/ex1/images/40.png)
+15. Monitor the status of Deployment and check the status changes to **Deployment Pending**.
+    <br>![](/exercises/ex1/images/41.png)
+16. Monitor the status of Deployment and check the status changes to **Deployed**. Note that Deployments can take 
+    approximately **10 minutes** to be Deployed.
+    <br>![](/exercises/ex1/images/42.png)
+17. Activate the deployment to run inference. Select the Deployment and click on **Activate** button and choose **For All** 
+    option.
+    <br>![](/exercises/ex1/images/43.png)
+
+### Well done, you just Used Intelligent Scenario Management app to train, view model quality, deploy and activate the model
+<br>
+    
+   
 ## 4. View the inference result returned by the model in an ABAP report
   In this step, you will use the ABAP GUI to view the inference result from the trained model.
 
