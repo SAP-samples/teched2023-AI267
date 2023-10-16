@@ -55,6 +55,13 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
 - [Summary](exercises/ex2/)
 
+
+## Additional Exercises
+The following exercise is Advanced exercise where the Model Training can be scheduled automatically.
+However, you can perform this exercise already after Exercise 1.
+
+
+
   
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
