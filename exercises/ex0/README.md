@@ -54,17 +54,23 @@ SAP HANA APL lets you build and apply different types of predictive models, such
             the most differential are selected as the most important reason codes. <br>
 Apply output configuration has the selected metrics that are added in the intelligent scenario output and used for prediction.    
  Click on the **Add** button.<br>![](/exercises/ex0/images/8.png)
-7. The scenario is now created in Draft Status. View the Input and Output fields to train the model in the **Input and Outputs Tabs** respectively.Input Tab displays the key, input, and target fields. 
-The Input variable is considered for modelling. The Key variable is a key field of the dataset and is also considered for modelling. The Target variable is the variable whose values are to be modelled and predicted by other variables. 
-Output tab displays the Key, Target, and Prediction fields. 
+7. The scenario is now created in Draft Status. View the Input and Output fields to train the model in the **Input and 
+   Outputs Tabs** respectively.<br>
+
+   Input Tab displays the key, input, and target fields. 
+   The Input variable is considered for modelling. The Key variable is a key field of the dataset and is also considered 
+   for modelling. The Target variable is the variable whose values are to be modelled and predicted by other variables.
+   <br>
+   
+   Output tab displays the Key, Target, and Prediction fields. 
 The Prediction variable includes the calculation result.
 <br>![](/exercises/ex0/images/9.png)
 
-8. Scenario is now ready to be published. Click on **Publish** button. You will receive a message that Intelligent Scenario is published.<br>![](/exercises/ex0/images/10.png)
-9. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name and Status = Published**.
+9. Scenario is now ready to be published. Click on **Publish** button. You will receive a message that Intelligent Scenario is published.<br>![](/exercises/ex0/images/10.png)
+10. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name and Status = Published**.
     <br>![](/exercises/ex0/images/11.png)
-10. Navigate to the details page by clicking the `>` icon.  <br>![](/exercises/ex0/images/12.png)
-11. Click on **Apply Setting** Tab and copy the CDS View name.
+11. Navigate to the details page by clicking the `>` icon.  <br>![](/exercises/ex0/images/12.png)
+12. Click on **Apply Setting** Tab and copy the CDS View name.
 CDS views are generated for the intelligent scenario to allow easy access to the predictions
 <br>![](/exercises/ex0/images/13.png)
 
