@@ -2,8 +2,8 @@
 
 In this exercise, we are going to predict the plane type of an aircraft using SAP BTP based ML service Data Attribute Recommendation. We will use the Intelligent Scenario Lifecycle Management (ISLM) framework to create and operate the ML use case. 
 
-Data Attribute Recommendation does apply machine learning to predict and classify data records.<br>
-With Data Attribute Recommendation you can:
+Data Attribute Recommendation uses machine learning to predict and classify data records.<br>
+With Data Attribute Recommendation you can
   -	Automate and speed up data management processes
   -	Reduce errors and manual efforts in data maintenance
   -	Increase data consistency and accuracy
