@@ -130,5 +130,7 @@ The column **GB_SCORE_SEATSOCC_F** column has the predicted value of the occupie
 <br>
 
 ## Summary
-Congratulations! You have successfully completed the Exercise 1.
+![GraduationCapThumbsUpGIF (2)](https://github.com/SAP-samples/teched2023-AI267/assets/43869146/0b94c653-21d0-4dda-9ead-09bc2b55faea)
+<br>
+ You have successfully completed the Exercise 1.
 Now Continue to - [Exercise 2 - Predict the plane type of an aircraft](../ex1/README.md)
