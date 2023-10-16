@@ -1,6 +1,6 @@
 # Predict the airplane seats that are being occupied in the first class of a flight
 
-In this practical exercise, our focus is on utilizing the SAP HANA Machine Learning (ML) algorithm to predict the occupancy of first-class seats on flights using APL Library. This predictive capability opens up a world of possibilities for companies, enabling them to optimize their aircraft selection and the allocation of first-class seats.
+In this practical exercise, our focus is on utilizing the SAP HANA Machine Learning (ML) algorithm to predict the occupancy of first-class seats on flights using APL Library. 
 
 To execute this exercise, we will leverage the Intelligent Scenario Lifecycle Management (ISLM) framework. ISLM serves as the foundation for creating and managing ML use cases seamlessly within the SAP S/4HANA stack.
 
