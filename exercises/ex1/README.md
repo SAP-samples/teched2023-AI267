@@ -55,7 +55,10 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
     <br>![](/exercises/ex1/images/14.png)
 15. Search the Intelligent Scenario created by you by entering the **Intelligent Scenario name** and **Status = Published**. 
     <br>![](/exercises/ex1/images/15.png)
-    
+
+### Well done, you just created your first Intelligent Scenario.
+<br>
+
 ## 2. Set up the connection for Intelligent Scenario to connect to BTP based ML service
 
 Once the Intelligent Scenario is published, we need to maintain the connection for an intelligent scenario in SAP S/4 HANA with the Data Attribute Recommendation service in BTP. Moderator has provisioned the ML Service in BTP and will share the service key to setup the connection. 
@@ -85,10 +88,19 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
     <br>![](/exercises/ex1/images/25.png)
 11. New entry will be added to the table.
     <br>![](/exercises/ex1/images/26.png)
-   
+
+### Well done, you just Set up the connection for Intelligent Scenario to connect to BTP based ML service.
+<br>
+
 ## Summary
+Congratulations! You have successfully completed the hands-on.
 
-You've now ...
+In this hands-on you learned how to create and operate the Intelligent Scenario.
+You also learned how to check the predictions made by the trained model and schedule training.
+Hope you found this hands-on session informative.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+To know more about ISLM, check [ISLM Community topic page](https://community.sap.com/topics/intelligent-scenario-lifecycle-management-s4hana)
+
+
+**Thank you for attending this hands-on!**
 
