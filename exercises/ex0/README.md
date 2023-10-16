@@ -50,10 +50,9 @@ SAP HANA APL lets you build and apply different types of predictive models, such
             different from training dataset).
       <br>![](/exercises/ex0/images/7.png)
 	6. **Target**: `SEATSOCCF`. Field whose value you want to predict.
-	7. **Max Reason Code**: `1`. Number of reason codes you want to generate.
+	7. **Max Reason Code**: `1`. Number of reason codes you want to generate.<br>
             Reason codes are variables whose values have the most influence in a score-based 
-            decision (typically a risk score). An example of the use of reason codes is to provide a customer with the 
-            reasons why the automatic scoring system did not approve his loan. The variables for which the contribution is 
+            decision (typically a risk score). The variables for which the contribution is 
             the most differential are selected as the most important reason codes. <br>
     Click on the **Add** button.<br>![](/exercises/ex0/images/8.png)
 7. The scenario is now created in Draft Status. View the Input and Output fields to train the model in the **Input and Outputs Tabs** respectively.Input Tab displays the key, input, and target fields. 
