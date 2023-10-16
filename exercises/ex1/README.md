@@ -111,7 +111,7 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
       <br>![](/exercises/ex1/images/53.png)
       <br>
       Copy the below text which contains the Inference Request in JSON format.
-      # JSON
+      # Inference Request in JSON
 ```json
 {
     "topN": 2,
