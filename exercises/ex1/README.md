@@ -7,6 +7,7 @@ With Data Attribute Recommendation you can
   -	Automate and speed up data management processes
   -	Reduce errors and manual efforts in data maintenance
   -	Increase data consistency and accuracy
+
 This exercise includes the following steps: 
 1. Create and publish Intelligent Scenario.
 2. Set up the connection for Intelligent Scenario to connect to BTP based ML service.
