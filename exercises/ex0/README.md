@@ -107,12 +107,12 @@ In this section, you will use the Intelligent Scenario Management app to perform
 9. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
    are affecting the predictions.
    <br>![](/exercises/ex0/images/22.png)
-   **MEAN_ABSOLUTE_ERROR:** Average absolute difference between the predicted values and the actual values. The lower the 
-    better.
+   **Mean Absolute Error(MAE):** Average absolute difference between the predicted values and the actual values. The lower 
+     the better.
    
    **Root Mean Square Error(RMSE):** RMSE is the square root of mean squared error. RMSE tells us how close the actual values are to prediction values made by the model. The lower the better.
    
-   **MEAN_ABSOLUTE_PERCENTAGE_ERROR:** Average of the absolute percentage errors of the predictions. The lower the 
+   **Mean Absolute Percentage Error(MAPE)** Average of the absolute percentage errors of the predictions. The lower the 
     better.
    
     <br>Choose the back icon **'<'** to navigate back to Model Versions screen.
