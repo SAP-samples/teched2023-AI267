@@ -25,7 +25,7 @@ SAP HANA APL lets you build and apply different types of predictive models, such
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-   Input the username and password provided by the moderator.
+   Input the username and password provided by the moderator.<br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.<br>![](/exercises/ex0/images/1.png)
 
 2. Click the **Create** button and choose **Embedded**.
