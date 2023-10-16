@@ -144,14 +144,12 @@ In this section, you will use the Intelligent Scenario Management app to perform
     <br>![](/exercises/ex1/images/38.png)
 14. Click on **Deploy and Monitor** Button
     <br>![](/exercises/ex1/images/39.png)
-15. New Deployment will be created in **Scheduled** status.
+15. New Deployment will be created in **Deployment Pending** status.
     <br>![](/exercises/ex1/images/40.png)
-16. Monitor the status of Deployment and check the status changes to **Deployment Pending**.
-    <br>![](/exercises/ex1/images/41.png)
-17. Monitor the status of Deployment and check the status changes to **Deployed**. Note that Deployments can take 
+16. Monitor the status of Deployment and check the status changes to **Deployed**. Note that Deployments can take 
     approximately **10 minutes** to be Deployed.
     <br>![](/exercises/ex1/images/42.png)
-18. Activate the deployment to run inference. Select the Deployment and click on **Activate** button and choose **For All** 
+17. Activate the deployment to run inference. Select the Deployment and click on **Activate** button and choose **For All** 
     option.
     <br>![](/exercises/ex1/images/43.png)
 
