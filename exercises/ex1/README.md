@@ -92,6 +92,97 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
 ### Well done, you just Set up the connection for Intelligent Scenario to connect to BTP based ML service.
 <br>
 
+
+## 4. View the inference result returned by the model in an ABAP report
+  In this step, you will use the ABAP GUI to view the inference result from the trained model.
+
+   1. Logon to system **HE4** open transaction **/nSE38**
+      <br>![](/exercises/ex1/images/50.png)
+   2. Input Report Name as
+      ```
+      R_ISLM_TEST_OPERATION_API
+      ```
+       and Click on **Execute** Button
+      <br>![](/exercises/ex1/images/51.png)
+   3. In the API Definition, choose option **TRIGGER_ONLINE_INFERENCE** from drop down.
+      <br>![](/exercises/ex1/images/52.png)
+   4. Enter the prediction class associated with your Intelligent Scenario.
+      Click on **Execute**.
+      <br>![](/exercises/ex1/images/53.png)
+      <br>
+      Copy the below text which contains the Inference Request in JSON format.
+      # JSON
+```json
+{
+    "topN": 2,
+    "objects": [
+        {
+            "objectId": "optional-identifier-5",
+            "features": [
+                {
+                    "name": "CARRID",
+                    "value": "AA"
+                },
+                {
+                    "name": "CONNID",
+                    "value": "17"
+                },
+                {
+                    "name": "FLDATE",
+                    "value": ""
+                },
+                {
+                    "name": "PRICE",
+                    "value": "422.94"
+                },
+                {
+                    "name": "SEATSMAX",
+                    "value": "385"
+                },
+                {
+                    "name": "SEATSOCC",
+                    "value": "374"
+                },
+                {
+                    "name": "SEATSMAXB",
+                    "value": "31"
+                },
+                {
+                    "name": "SEATSMAXF",
+                    "value": "21"
+                },
+                {
+                    "name": "SEATSOCCB",
+                    "value": "29"
+                },
+                {
+                    "name": "SEATSOCCF",
+                    "value": "21"
+                },
+                {
+                    "name": "PAYMENTSUM",
+                    "value": ""
+                },
+                {
+                    "name": "CURRENCY",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+}
+```
+5. Paste the copied text in the **text editor**.
+   Inference Request contains the features and its value which is input for the trained model.Click on **tick** icon.
+   <br>![](/exercises/ex1/images/54.png)
+ 
+6. View the response from the trained model.
+   Output contains the value of the target along with the probability score. 
+   <br>![](/exercises/ex1/images/55.png)
+
+### Well done, you just Viewed the inference result returned by the model in an ABAP report.
+<br>
+
 ## Summary
 Congratulations! You have successfully completed the Exercise 2.
 Now Continue to - [Summary](../ex2/README.md)
