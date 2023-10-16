@@ -29,8 +29,8 @@ By the end of this workshop, participants will gain a comprehensive understandin
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
-
+There are no dedicated requirement for this exercise. But in case you want to gain some further knowledge around Intelligent Scenario Lifecycle Management please visit
+[ISLM Community topic page](https://community.sap.com/topics/intelligent-scenario-lifecycle-management-s4hana)
 ## Use Cases
 
 In this workshop, our focus will be on a real-world use case example where a leading airline is looking to enhance its customer experience using AI-driven predictive technology. Data scientists are tasked with developing and testing machine learning models. After the data science phase, the challenge lies in seamlessly transitioning these models into production within the SAP S/4HANA landscape. This is where ISLM comes into play, offering a unified framework to simplify integration, streamline deployment, and manage the lifecycle of these intelligent scenarios.
