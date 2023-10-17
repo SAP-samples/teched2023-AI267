@@ -58,7 +58,7 @@ In this workshop, our focus will be on a real-world use case example where a lea
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Exercise 1 - Predict the airplane seats that are being occupied in the first class of a flight](exercises/ex0/)
+- [Exercise 1 - Predict the first class seats occupied aircraft](exercises/ex0/)
 - [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
 - [Summary](exercises/ex2/)
 
