@@ -191,6 +191,8 @@ In this section, you will use the Intelligent Scenario Management app to perform
       
       To predict this target, inputs to model has to be provided.
 
+      **topN**-parameter which defines how many options will be predicted.
+
       Inputs would be **CARRID, CONNID, FLDATE, PRICE, SEATSMAX, SEATSOCC, SEATSMAXB, SEATSMAXF, SEATSOCCB, 
       SEATSOCCF, PAYMENTSUM, CURRENCY**.
       # Inference Request in JSON
@@ -258,6 +260,10 @@ In this section, you will use the Intelligent Scenario Management app to perform
    <br>![](/exercises/ex1/images/54.png)
  
 6. View the response from the trained model.
+
+   In the response, you find the values that the model predicted. This includes the value that is predicted and the 
+   probability. The probability describes how certain the model is about its prediction. **If the probability is close to 1, 
+   the model is very certain**.
    
    Model predicts the PLANETYPE with two possible values(as defined in Inference request **"topN": 2** )
 	| Predicted Value | Probability    | 
