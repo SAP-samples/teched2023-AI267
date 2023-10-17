@@ -1,4 +1,4 @@
-# Predict the airplane seats that are being occupied in the first class of a flight
+# Predict the first class seats occupied of an aircraft
 
 In this practical exercise, our focus is on utilizing the SAP HANA Machine Learning (ML) algorithm to predict the occupancy of first-class seats on flights using APL Library. 
 
