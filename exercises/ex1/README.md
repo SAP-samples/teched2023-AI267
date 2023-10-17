@@ -23,7 +23,7 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
    Prediction class has methods to specify Inference type and ML Template for Data Attribute Recommendation. 
    For this use case, we will use generic template which make use of Classification algorithm.<br>
 
-   More details [Additional Information](exercises/ex4/)
+   More details [Additional Information](../ex4/)
    
    Open **SAP Logon** and logon to system **HE4 400** <br>
    Open transaction **/nse24** and search for the class **ZCL_PLANTYPE_HO**  
