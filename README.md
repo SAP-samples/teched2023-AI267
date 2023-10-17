@@ -67,6 +67,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 The following exercise is Advanced exercise where the Model Training can be scheduled automatically.
 
 - [Schedule training](exercises/ex3/)
+- [Additional Information](exercises/ex4/)
 
   
 ## Contributing
