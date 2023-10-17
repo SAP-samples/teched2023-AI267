@@ -184,6 +184,12 @@ In this section, you will use the Intelligent Scenario Management app to perform
       <br>![](/exercises/ex1/images/53.png)
       <br>
       Copy the below text which contains the Inference Request in JSON format.
+      Your trained model is now ready to predict the target **PLANETYPE**.
+      
+      To predict this target, inputs to model has to be provided.
+
+      Inputs would be **CARRID, CONNID, FLDATE, PRICE, SEATSMAX, SEATSOCC, SEATSMAXB, SEATSMAXF, SEATSOCCB, 
+      SEATSOCCF, PAYMENTSUM, CURRENCY**.
       # Inference Request in JSON
 ```json
 {
