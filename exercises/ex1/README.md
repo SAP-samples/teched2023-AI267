@@ -184,6 +184,9 @@ In this section, you will use the Intelligent Scenario Management app to perform
       <br>![](/exercises/ex1/images/53.png)
       <br>
       Copy the below text which contains the Inference Request in JSON format.
+
+      Inference Request contains the features and its value which is input for the trained model.
+      
       Your trained model is now ready to predict the target **PLANETYPE**.
       
       To predict this target, inputs to model has to be provided.
@@ -251,12 +254,18 @@ In this section, you will use the Intelligent Scenario Management app to perform
     ]
 }
 ```
-5. Paste the copied text in the **text editor**.
-   Inference Request contains the features and its value which is input for the trained model.Click on **tick** icon.
+5. Paste the copied text in the **text editor**. Click on **tick** icon.
    <br>![](/exercises/ex1/images/54.png)
  
 6. View the response from the trained model.
-   Output contains the value of the target along with the probability score. 
+   
+   Model predicts the PLANETYPE with two possible values(as defined in Inference request **"topN": 2** )
+	| Predicted Value | Probability    | 
+	| :---:   | :---: | 
+	| 747-400 | 0.9646   |
+	| 767-200 | 0.010   | 
+
+   
    <br>![](/exercises/ex1/images/55.png)
 
 ### Well done, you just Viewed the inference result returned by the model in an ABAP report.
