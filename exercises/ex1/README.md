@@ -188,10 +188,10 @@ In this section, you will use the Intelligent Scenario Management app to perform
       Inference Request contains the features and its value which is input for the trained model.
       
       Your trained model is now ready to predict the target **PLANETYPE**.
-      
-      To predict this target, inputs to model has to be provided.
 
       **topN**-parameter which defines how many options will be predicted.
+      
+      To predict this target, inputs to model has to be provided.
 
       Inputs would be **CARRID, CONNID, FLDATE, PRICE, SEATSMAX, SEATSOCC, SEATSMAXB, SEATSMAXF, SEATSOCCB, 
       SEATSOCCF, PAYMENTSUM, CURRENCY**.
