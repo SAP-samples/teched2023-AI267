@@ -19,31 +19,37 @@ This exercise includes the following steps:
 The Intelligent Scenarios app is used to create intelligent scenarios, review, and publish them, and to make them available in the Intelligent Scenario Management app. In this step, you’ll create a new intelligent scenario to predict the plane type using SAP BTP based ML service Data Attribute Recommendation. 
 
 1. Create a Prediction Class which defines the behavior of the scenario.<br>
+
+   Prediction class has methods to specify Inference type and ML Template for Data Attribute Recommendation. 
+   For this use case, we will use generic template which make use of Classification algorithm.<br>
+
+   More details [Additional Information](exercises/ex4/)
+   
    Open **SAP Logon** and logon to system **HE4 400** <br>
    Open transaction **/nse24** and search for the class **ZCL_PLANTYPE_HO**  
    <br>![](/exercises/ex1/images/1.png)
-2. Click on **Copy** 
+1. Click on **Copy** 
    <br>![](/exercises/ex1/images/2.png)
-3. Provide the unique name in the Copy to field.<br>  
+2. Provide the unique name in the Copy to field.<br>  
    Enter a unique name starting with ZCL, such as **ZCL_PLANTYPE_###** ### is your attendee id. 
    <br>Click on tick icon.
    <br>![](/exercises/ex1/images/3.png)
-4. Click on **Local Object** 
+3. Click on **Local Object** 
    <br>![](/exercises/ex1/images/4.png)
-5. Class is created in Inactive status. Click on **Display**
+4. Class is created in Inactive status. Click on **Display**
    <br>![](/exercises/ex1/images/5.png)
-6. Click on **Activate** icon
+5. Click on **Activate** icon
    <br>![](/exercises/ex1/images/6.png)
-7. Click on tick icon
+6. Click on tick icon
    <br>![](/exercises/ex1/images/7.png)
-8. Open the Fiori Launchpad URL
+7. Open the Fiori Launchpad URL
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
     Enter the user details provided by speakers to login.<br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.
    <br>![](/exercises/ex1/images/8.png)
-9. Click the **Create** button and choose->**Side-by Side**.
+8. Click the **Create** button and choose->**Side-by Side**.
    This approach is commonly known as '**side-by-side**,' where the ML provider and the business application operate within separate stacks.
    <br>![](/exercises/ex1/images/9.png)
 11. Provide the required information in the screen:
