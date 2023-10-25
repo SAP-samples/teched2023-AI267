@@ -25,7 +25,8 @@ SAP HANA APL lets you build and apply different types of predictive models, such
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-   Enter the user details provided by speakers to login.<br>
+   Enter the user details as provided in [Attendee Details](../ex5/).
+   <br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.<br>![](/exercises/ex0/images/1.png)
 
 2. Click the **Create** button and choose **Embedded**.
@@ -85,26 +86,27 @@ In this section, you will use the Intelligent Scenario Management app to perform
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-   Enter the user details provided by speakers to login.<br>
+   Enter the user details as provided in [Attendee Details](../ex5/).
+   <br>
    Click on **My Home** section and choose the **Intelligent Scenario Management** app
    <br>![](/exercises/ex0/images/14.png)
 
-2. Search the **First-Class Seats Occupied** scenario created by you and navigate to the details page by clicking the `>` icon.
+3. Search the **First-Class Seats Occupied** scenario created by you and navigate to the details page by clicking the `>` icon.
    <br>![](/exercises/ex0/images/15.png)
 
-3. Select the Model and click on the **Train button** to trigger the training.
+4. Select the Model and click on the **Train button** to trigger the training.
    <br>![](/exercises/ex0/images/16.png)
-4. In the Model section, view the Dataset Record Count. Click on **Train** button.
+5. In the Model section, view the Dataset Record Count. Click on **Train** button.
    <br>![](/exercises/ex0/images/17.png)
-5. New Model Version will be created in **Scheduled** status.
+6. New Model Version will be created in **Scheduled** status.
    <br>![](/exercises/ex0/images/18.png)
-6. Monitor the status of the **Model Version** and check the status changes to **Training**.
+7. Monitor the status of the **Model Version** and check the status changes to **Training**.
    <br>![](/exercises/ex0/images/19.png)
-7. Monitor the status of the Model Version and check the status changes to **Ready**.
+8. Monitor the status of the Model Version and check the status changes to **Ready**.
    <br>![](/exercises/ex0/images/20.png)
-8. Click on **'>'** icon to view Model Version Report.
+9. Click on **'>'** icon to view Model Version Report.
    <br>![](/exercises/ex0/images/21.png)
-9. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
+10. View different tabs like **Quality Information and Debrief**. You can see attributes about data quality and what key influencers 
    are affecting the predictions.
    <br>![](/exercises/ex0/images/22.png)
    **Mean Absolute Error(MAE):** Average absolute difference between the predicted values and the actual values. The lower 
