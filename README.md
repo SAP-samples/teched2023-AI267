@@ -66,8 +66,9 @@ The following exercise is Advanced exercise where the Model Training can be sche
 
 - [Schedule training](exercises/ex3/)
 
-## Additional Information
-- [Additional Details](exercises/ex4/)
+## Additional Links
+- [Attendee Details](exercises/ex5/)
+- [Additional Information](exercises/ex4/)
 
   
 ## Contributing
