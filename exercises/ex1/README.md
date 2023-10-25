@@ -74,7 +74,7 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
 
 ## 2. Set up the connection for Intelligent Scenario to connect to BTP based ML service
 
-Once the Intelligent Scenario is published, we need to maintain the connection for an intelligent scenario in SAP S/4 HANA with the Data Attribute Recommendation service in BTP. Speaker has provisioned the ML Service in BTP and will share the **service key** to setup the connection. 
+Once the Intelligent Scenario is published, we need to maintain the connection for an intelligent scenario in SAP S/4 HANA with the Data Attribute Recommendation service in BTP. Speaker has provisioned the ML Service in BTP and  **service key** details are provided in step7 to setup the connection. 
 
 1. Open **SAP Logon** and logon to **HE4 400**<br>
    Open transaction **/nSPRO**<br>
@@ -91,7 +91,7 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
    <br>![](/exercises/ex1/images/20.png)
 6. Input the Intelligent Scenario Name and click on **Next**
    <br>![](/exercises/ex1/images/21.png)
-7. Enter the **service key** from remote machine learning provider shared by the moderator.
+7. Enter the [Service Key](../ex5/) from remote machine learning provider shared by the moderator.
    <br>![](/exercises/ex1/images/22.png)
 8. Click **Next**.
    <br>![](/exercises/ex1/images/23.png)
