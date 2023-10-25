@@ -45,10 +45,11 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-    Enter the user details provided by speakers to login.<br>
+   Enter the user details as provided in [Attendee Details](../ex5/).
+   <br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.
    <br>![](/exercises/ex1/images/8.png)
-8. Click the **Create** button and choose->**Side-by Side**.
+9. Click the **Create** button and choose->**Side-by Side**.
    This approach is commonly known as '**side-by-side**,' where the ML provider and the business application operate within separate stacks.
    <br>![](/exercises/ex1/images/9.png)
 11. Provide the required information in the screen:
@@ -112,32 +113,33 @@ In this section, you will use the Intelligent Scenario Management app to perform
    ```
    https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
    ```
-   Enter the user details provided by speakers to login.<br>
+   Enter the user details as provided in [Attendee Details](../ex5/).
+   <br>
    Click on **My Home** section and choose the **Intelligent Scenario Management** app.
    <br>![](/exercises/ex1/images/27.png)
-2. Search the **Plane type** scenario created by you and navigate to the details page by clicking the **>** icon. 
+3. Search the **Plane type** scenario created by you and navigate to the details page by clicking the **>** icon. 
     <br>![](/exercises/ex1/images/28.png)
-3. Select the Version **3.0** and click on the **Train** button to trigger the training.
+4. Select the Version **3.0** and click on the **Train** button to trigger the training.
    <br>![](/exercises/ex1/images/29.png)
-4. Train dialog opens.
+5. Train dialog opens.
    The values for Parameters will be defaulted and do not change it.
    The Artifacts values for dataset and datasetSchema will be provided by the speaker.
    <br>![](/exercises/ex1/images/30.png)
-5. Click on **Train** button
+6. Click on **Train** button
    <br>![](/exercises/ex1/images/31.png)
-6. New Training will be created in **Scheduled** status.
+7. New Training will be created in **Scheduled** status.
    <br>![](/exercises/ex1/images/32.png)
-7. Monitor the status of Training and check the status changes to **Training**
+8. Monitor the status of Training and check the status changes to **Training**
    <br>![](/exercises/ex1/images/33.png)
-8. Monitor the status of Training and check the status changes to **Completed**. Note that training can take approximately 
+9. Monitor the status of Training and check the status changes to **Completed**. Note that training can take approximately 
    **5 minutes** to complete.
    <br>![](/exercises/ex1/images/34.png)
-9. Click on **>** icon to view Training Report.
+10. Click on **>** icon to view Training Report.
    <br>![](/exercises/ex1/images/35.png)
-10. View the information in header section. 
+11. View the information in header section. 
     Click on **Debrief** tab.
     <br>![](/exercises/ex1/images/36.png)
-11. View target metrics and feature contribution scores in **Debrief**.
+12. View target metrics and feature contribution scores in **Debrief**.
     
     **Feature contribution score:** Estimate of how much the model depends on each feature. The higher the contribution 
      score, the more important the feature is.
