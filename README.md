@@ -42,21 +42,19 @@ By the end of this workshop, participants will gain a comprehensive understandin
 
 There are no dedicated requirement for this exercise. But in case you want to gain some further knowledge around Intelligent Scenario Lifecycle Management please visit
 [ISLM Community topic page](https://community.sap.com/topics/intelligent-scenario-lifecycle-management-s4hana)
-## Use Cases
+
+## Exercises
 
 In this workshop, our focus will be on a real-world use case example where a leading airline is looking to enhance its customer experience using AI-driven predictive technology. Data scientists are tasked with developing and testing machine learning models. After the data science phase, the challenge lies in seamlessly transitioning these models into production within the SAP S/4HANA landscape. This is where ISLM comes into play, offering a unified framework to simplify integration, streamline deployment, and manage the lifecycle of these intelligent scenarios.
 
 
-1)	**Predict the airplane seats that are being occupied in the first class of a flight** <br/>
+1)	**Exercise 1 - Predict the airplane seats that are being occupied in the first class of a flight** <br/>
    In this specific use case, our goal is to forecast the occupancy of first-class seats on flights by harnessing the power of SAP HANA's Machine Learning (ML) algorithm.  
    
-2)	**Predict the plane type of an aircraft** <br/>
+2)	**Exercise 2 - Predict the plane type of an aircraft** <br/>
    This use case involves predicting the aircraft type using the SAP BTP-based reusable SAP AI Business Service, Data Attribute Recommendation Service (DAR), powered by an ML algorithm.  
 
-
-## Exercises
-
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+Navigate to the links below to get a detailed description to perform each exercise.
 
 - [Exercise 1 - Predict the first class seats occupied of an aircraft](exercises/ex0/)
 - [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
@@ -67,7 +65,9 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 The following exercise is Advanced exercise where the Model Training can be scheduled automatically.
 
 - [Schedule training](exercises/ex3/)
-- [Additional Information](exercises/ex4/)
+
+## Additional Information
+- [Additional Details](exercises/ex4/)
 
   
 ## Contributing
