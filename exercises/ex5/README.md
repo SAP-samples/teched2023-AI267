@@ -1,8 +1,10 @@
 # Login Details
 Every Attendee can use below login credentials. <br>
 we have 40 login user as mentioned below <br>
-password will be shared in the session.
 
+# Credentials
+Login User and password details shared below.
+## Login User
 | Login user |
 | :---:      |
 | AI267-001  |
@@ -14,6 +16,10 @@ password will be shared in the session.
 | ....       |  
 | AI267-040  |
 
+## Password
+Password will be shared in the session room by speakers.
+
+<br>
 
 # Attendee AI267-001 to AI267-010
 
