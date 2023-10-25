@@ -1,6 +1,7 @@
 # Login Details
 Every Attendee can use below login credentials. <br>
-we have 40 login user as mentioned below <br>
+we have created 40 users as mentioned below <br> 
+These users can be used to login both Front end and Backend.
 
 # Credentials
 Login User and password details shared below.
@@ -23,7 +24,7 @@ Password will be shared in the session room by speakers.
 
 # Attendee AI267-001 to AI267-010
 
-### Service Key
+### DAR Service Key
 ```json
 
 ```
@@ -37,7 +38,7 @@ Password will be shared in the session room by speakers.
 
 # Attendee AI267-011 to AI267-020
 
-### Service Key
+### DAR Service Key
 ```json
 
 ```
@@ -51,7 +52,7 @@ Password will be shared in the session room by speakers.
 
 # Attendee AI267-021 to AI267-030
 
-### Service Key
+### DAR Service Key
 ```json
 
 ```
@@ -65,7 +66,7 @@ Password will be shared in the session room by speakers.
 
 # Attendee AI267-031 to AI267-040
 
-### Service Key
+### DAR Service Key
 ```json
 
 ```
