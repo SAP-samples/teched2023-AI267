@@ -3,7 +3,7 @@ You can schedule a training for your intelligent scenarios. Once the trainings a
 
 1. Open the Fiori Launchpad URL
    ```
-   https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
+   https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home
    ```
    Input the username and password provided by the moderator.
    Click on **My Home** section and choose the **Intelligent Scenario Management** app.
