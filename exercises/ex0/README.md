@@ -23,7 +23,7 @@ SAP HANA APL lets you build and apply different types of predictive models, such
 
 1.	Open the Fiori Launchpad URL
    ```
-   https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
+   https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home
    ```
    Enter the user details as provided in [Attendee Details](../ex5/).
    <br>
@@ -84,7 +84,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
 
 1. Open the Fiori Launchpad URL
    ```
-   https://34.196.182.50:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html
+   https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home
    ```
    Enter the user details as provided in [Attendee Details](../ex5/).
    <br>
