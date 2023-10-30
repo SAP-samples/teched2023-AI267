@@ -6,23 +6,23 @@ These users can be used to login both Front end and Backend.
 # Credentials
 Login User and password details shared below.
 ## Login User
-| Login user |
-| :---:      |
-| AI267-001  |
-| AI267-002  | 
-| AI267-003  |
-| AI267-004  |
-| AI267-005  |
-| AI267-006  |
-| ....       |  
-| AI267-040  |
+| Attendee ID | Login user name |
+| :---:       | :---:           |
+| 001         | AI267-001       |
+| 002         | AI267-002       | 
+| 003         | AI267-003       |
+| 004         | AI267-004       |
+| 005         | AI267-005       |
+| 006         | AI267-006       |
+| ....        | ....            |   
+| 040         | AI267-040       |
 
 ## Password
 Password will be shared in the session room by speakers.
 
 <br>
 
-# Attendee AI267-001 to AI267-010
+# For Attendees 001 to 010
 
 ### DAR Service Key
 ```json
@@ -60,7 +60,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# Attendee AI267-011 to AI267-020
+# For Attendees 011 to 020
 
 ### DAR Service Key
 ```json
@@ -98,7 +98,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# Attendee AI267-021 to AI267-030
+# For Attendees 021 to 030
 
 ### DAR Service Key
 ```json
@@ -136,7 +136,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# Attendee AI267-031 to AI267-040
+# For Attendees 031 to 040
 
 ### DAR Service Key
 ```json
