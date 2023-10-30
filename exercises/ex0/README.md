@@ -21,11 +21,9 @@ For this use case we will use regression model with Gradient Boosting algorithm.
 SAP HANA APL lets you build and apply different types of predictive models, such as classification, regression, and time series forecasting models. Gradient Boosting regression model type provides a more accurate modeling result than the legacy regression model.  
 
 
-1.	Open the Fiori Launchpad URL
-   ```
-   https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home
-   ```
-   Enter the user details as provided in [Attendee Details](../ex5/).
+1.	Open the Fiori Launchpad <a href="https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home" target="_blank">URL</a>
+
+   Enter the user details as provided in <a href="../ex5/" target="_blank">Attendee Details</a>.
    <br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.<br>![](/exercises/ex0/images/1.png)
 
