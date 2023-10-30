@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session called AI267 - Empower AI Embedding into SAP S/4HANA with ISLM.<br>
+This repository contains the material for the SAP TechEd 2023 session called **AI267 - Empower AI Embedding into SAP S/4HANA with ISLM**.<br>
 
 In the rapidly evolving landscape of AI and machine learning, Intelligent Scenario Lifecycle Management (ISLM) has emerged as a critical framework that bridges the gap between data science endeavors and practical application development.<br>
 
@@ -17,11 +17,11 @@ ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re
 ## Overview
 ![](Overview.png) <br>
 
-*   **Business User**:  The end user who interacts with the business application and use the predictions from machine learning for the business purpose.<br>
-*   **Business Administrator**:   A domain expert or analytics specialist, who can perform model trainings based on business context, view model quality, and activate a model for production usage.<br>
+*   **Business User**:  The end user who interacts with the business application and uses the predictions from machine learning for the business purpose.<br>
+*   **Business Administrator**:   A domain expert or analytics specialist, who can perform model trainings based on business context, evaluate model quality, and can activate a model for production usage.<br>
 *   **Technical Administrator**:  A system administrator who can perform the configurations of connectivity between different entities as well as maintains the technical configurations of the system.<br>
 *   **ABAP Developer**: A developer who can create ABAP artifacts required for Intelligent Scenario registration.<br>
-*   **Intelligent Scenario Owner**: A owner who create Intelligent Scenario, review and publish.
+*   **Intelligent Scenario Owner**: A owner who create, review and publish Intelligent Scenario.
 
 <br>
 
@@ -54,11 +54,11 @@ In this workshop, our focus will be on a real-world use case example where a lea
 2)	**Exercise 2 - Predict the plane type of an aircraft** <br/>
    This use case involves predicting the aircraft type using the SAP BTP-based reusable SAP AI Business Service, Data Attribute Recommendation Service (DAR), powered by an ML algorithm.  
 
-Navigate to the links below to get a detailed description to perform each exercise.
+Navigate to the links below in specified sequence to get a detailed description and to perform each exercise.
 
-- [Exercise 1 - Predict the first class seats occupied of an aircraft](exercises/ex0/)
-- [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
-- [Summary](exercises/ex2/)
+1) [Exercise 1 - Predict the first class seats occupied of an aircraft](exercises/ex0/)
+2) [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
+3) [Summary](exercises/ex2/)
 
 
 ## Additional Exercises
