@@ -12,7 +12,7 @@ ISLM plays a pivotal role in streamlining and optimizing the adoption of AI solu
 <br>
 ISLM standardizes the integration and consumption of intelligent scenarios within SAP S/4HANA for both embedded as well as side-by-side scenarios.
 
-ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re-)training and deployment as well as activation of the model that should be consumed by the business application, directly within SAP S/4HANA. ML ops in ISLM is supported in the context of ML use case(Intelligent Scenario). 
+ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re-)training and deployment as well as activation of the model that should be consumed by the business application, directly within SAP S/4HANA. MLOps in ISLM is supported in the context of ML use case(Intelligent Scenario). 
 
 ## Overview
 ![](Overview.png) <br>
