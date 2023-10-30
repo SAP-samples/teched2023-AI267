@@ -17,11 +17,11 @@ ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re
 ## Overview
 ![](Overview.png) <br>
 
-**Business User**:  The end user who interacts with the business application and use the predictions from machine learning for the business purpose.<br>
-**Business Administrator**:   A domain expert or analytics specialist, who can perform model trainings based on business context, view model quality, and activate a model for production usage.<br>
-**Technical Administrator**:  A system administrator who can perform the configurations of connectivity between different entities as well as maintains the technical configurations of the system.<br>
-**ABAP Developer**: A developer who can create ABAP artifacts required for Intelligent Scenario registration.<br>
-**Intelligent Scenario Owner**: A owner who create Intelligent Scenario, review and publish.
+*   **Business User**:  The end user who interacts with the business application and use the predictions from machine learning for the business purpose.<br>
+*   **Business Administrator**:   A domain expert or analytics specialist, who can perform model trainings based on business context, view model quality, and activate a model for production usage.<br>
+*   **Technical Administrator**:  A system administrator who can perform the configurations of connectivity between different entities as well as maintains the technical configurations of the system.<br>
+*   **ABAP Developer**: A developer who can create ABAP artifacts required for Intelligent Scenario registration.<br>
+*   **Intelligent Scenario Owner**: A owner who create Intelligent Scenario, review and publish.
 
 <br>
 
