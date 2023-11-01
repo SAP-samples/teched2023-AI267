@@ -12,7 +12,7 @@ ISLM plays a pivotal role in streamlining and optimizing the adoption of AI solu
 <br>
 ISLM standardizes the integration and consumption of intelligent scenarios within SAP S/4HANA for both embedded as well as side-by-side scenarios.
 
-ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re-)training and deployment as well as activation of the model that should be consumed by the business application, directly within SAP S/4HANA. MLOps in ISLM is supported in the context of ML use case(Intelligent Scenario). 
+ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re-)training and deployment as well as activation of the model that should be consumed by the business application, directly within SAP S/4HANA. MLOps in ISLM is supported in the context of ML use case (Intelligent Scenario). 
 
 ## Overview
 ![](Overview.png) <br>
@@ -21,7 +21,7 @@ ISLM can be leveraged to perform lifecycle operations, including (scheduled) (re
 *   **Business Administrator**:   A domain expert or analytics specialist, who can perform model trainings based on business context, evaluate model quality, and can activate a model for production usage.<br>
 *   **Technical Administrator**:  A system administrator who can perform the configurations of connectivity between different entities as well as maintains the technical configurations of the system.<br>
 *   **ABAP Developer**: A developer who can create ABAP artifacts required for Intelligent Scenario registration.<br>
-*   **Intelligent Scenario Owner**: A owner who create, review and publish Intelligent Scenario.
+*   **Intelligent Scenario Owner**: A owner who creates, reviews and publishes Intelligent Scenario.
 
 <br>
 
@@ -56,19 +56,19 @@ In this workshop, our focus will be on a real-world use case example where a lea
 
 Navigate to the links below in specified sequence to get a detailed description and to perform each exercise.
 
-1) [Exercise 1 - Predict the first class seats occupied of an aircraft](exercises/ex0/)
-2) [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/)
-3) [Summary](exercises/ex2/)
+1) [Exercise 1 - Predict the first class seats occupied of an aircraft](exercises/ex0/README.md)
+2) [Exercise 2 - Predict the plane type of an aircraft](exercises/ex1/README.md)
+3) [Summary](exercises/ex2/README.md)
 
 
 ## Additional Exercises
 The following exercise is Advanced exercise where the Model Training can be scheduled automatically.
 
-- [Schedule training](exercises/ex3/)
+- [Schedule training](exercises/ex3/README.md)
 
 ## Additional Links
-- [Attendee Details](exercises/ex5/)
-- [Additional Information](exercises/ex4/)
+- [Attendee Details](exercises/ex5/README.md)
+- [Additional Information](exercises/ex4/README.md)
 
   
 ## Contributing
