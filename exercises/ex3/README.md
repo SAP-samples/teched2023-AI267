@@ -1,11 +1,8 @@
 # Schedule training 
 You can schedule a training for your intelligent scenarios. Once the trainings are scheduled, model versions are created automatically based on the selected frequency and preselected filters.
 
-1. Open the Fiori Launchpad URL
-   ```
-   https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home
-   ```
-   Input the username and password provided by the moderator.
+1. Ctrl+Click [here](https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home) to open Fiori Lanuchpad in a new tab.<br>
+   Enter the user details as provided in Attendee Details. Ctrl+Click [Attendee Details](../ex5/).
    Click on **My Home** section and choose the **Intelligent Scenario Management** app.
    <br>![](/exercises/ex3/images/1.png)
 2. Search the **First-Class Seats Occupied** scenario created by you and navigate to the details page by clicking the **>** 
