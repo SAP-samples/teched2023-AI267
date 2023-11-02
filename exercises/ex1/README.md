@@ -41,7 +41,7 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
    <br>![](/exercises/ex1/images/6.png)
 6. Click on tick icon
    <br>![](/exercises/ex1/images/7.png)
-7. Ctrl+Click [here](https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home) to open Fiori Lanuchpad in a new tab.<br>
+7. Ctrl+Click [here](https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home) to open Fiori Launchpad in a new tab.<br>
    Enter the user details as provided in Attendee Details. Ctrl+Click [Attendee Details](../ex5/).
    <br>
    Click on **My Home** section and choose the **Intelligent Scenario** app.
@@ -106,7 +106,7 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
 Once the Intelligent Scenario is published, the Intelligent Scenario Management app helps you to train, monitor the model quality, deploy, and activate the model for productive usage.
 In this section, you will use the Intelligent Scenario Management app to perform ML operations. 
 
-1. Ctrl+Click [here](https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home) to open Fiori Lanuchpad in a new tab.<br>
+1. Ctrl+Click [here](https://flp1.tdc.sap.com:44302/sap/bc/ui2/flp#Shell-home) to open Fiori Launchpad in a new tab.<br>
    Enter the user details as provided in Attendee Details. Ctrl+Click [Attendee Details](../ex5/).
    <br>
    Click on **My Home** section and choose the **Intelligent Scenario Management** app.
