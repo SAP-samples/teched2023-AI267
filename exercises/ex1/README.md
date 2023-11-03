@@ -88,7 +88,7 @@ Once the Intelligent Scenario is published, we need to maintain the connection f
    <br>![](/exercises/ex1/images/20.png)
 6. Input the Intelligent Scenario Name and click on **Next**
    <br>![](/exercises/ex1/images/21.png)
-7. Enter the [Service Key](../ex5/) 
+7. Enter the Service Key details. Ctrl+Click [here](../ex5/) to get Service Key details.
    <br>![](/exercises/ex1/images/22.png)
 8. Click **Next**.
    <br>![](/exercises/ex1/images/23.png)
