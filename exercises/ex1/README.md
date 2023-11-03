@@ -25,7 +25,7 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
 
    
    Open **SAP Logon** and logon to system **HE4 400** <br>
-   Open transaction **/nse24** and search for the ABAP class mentioned in User Details for your user group. Ctrl+Click [here](/exercises/ex5#for-attendees-001-to-008)
+   Open transaction **/nse24** and search for the ABAP class mentioned in User Details for your user group. Ctrl+Click [here](/exercises/ex5#for-attendees-001-to-008) to get the prediction class to be copied.
    <br>![](/exercises/ex1/images/1.png)
 1. Click on **Copy** 
    <br>![](/exercises/ex1/images/2.png)
