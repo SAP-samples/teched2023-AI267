@@ -25,12 +25,12 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
 
    
    Open **SAP Logon** and logon to system **HE4 400** <br>
-   Open transaction **/nse24** and search for the class **ZCL_PLANTYPE_HO**  
+   Open transaction **/nse24** and search for the ABAP class mentioned in User Details for your user group. Ctrl+Click [here](/exercises/ex5#for-attendees-001-to-008)
    <br>![](/exercises/ex1/images/1.png)
 1. Click on **Copy** 
    <br>![](/exercises/ex1/images/2.png)
 2. Provide the unique name in the Copy to field.<br>  
-   Enter a unique name starting with ZCL, such as **ZCL_PLANTYPE_###** ### is your attendee id. 
+   Enter a unique name starting with ZCL, such as **ZCL_PLANTYPE_###**, where ### is your attendee id. 
    <br>Click on tick icon.
    <br>![](/exercises/ex1/images/3.png)
 3. Click on **Local Object** 
