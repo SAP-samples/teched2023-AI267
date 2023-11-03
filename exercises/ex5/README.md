@@ -22,7 +22,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# For Attendees 001 to 010
+# For Attendees 001 to 008
 
 ### DAR Service Key
 ```json
@@ -60,7 +60,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# For Attendees 011 to 020
+# For Attendees 009 to 016
 
 ### DAR Service Key
 ```json
@@ -98,7 +98,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# For Attendees 021 to 030
+# For Attendees 017 to 024
 
 ### DAR Service Key
 ```json
@@ -136,7 +136,7 @@ Password will be shared in the session room by speakers.
 
 <br>
 
-# For Attendees 031 to 040
+# For Attendees 025 to 032
 
 ### DAR Service Key
 ```json
@@ -171,5 +171,42 @@ Password will be shared in the session room by speakers.
 |  Dataset   | Dataset schema | 
 | ------------------- |  ------------------- | 
 | 4b497915-5f03-4144-a277-6675cea91eaa | de0d0a6a-0cc8-4638-b3c7-431796aaeedc |
+
+
+# For Attendees 033 to 040
+
+### DAR Service Key
+```json
+{
+  "swagger": {
+    "dm": "https://aiservices-dar.cfapps.eu11.hana.ondemand.com/data-manager/doc/ui",
+    "inference": "https://aiservices-dar.cfapps.eu11.hana.ondemand.com/inference/doc/ui",
+    "mm": "https://aiservices-dar.cfapps.eu11.hana.ondemand.com/model-manager/doc/ui"
+  },
+  "uaa": {
+    "apiurl": "https://api.authentication.eu11.hana.ondemand.com",
+    "clientid": "sb-a25cca7b-e32b-4b9e-8799-bf619ad965b2!b5177|dar-std-production!b686",
+    "clientsecret": "4a259b49-3fa4-462a-bf7f-9d4732de9994$wwKGR1eDMvjL5j27edrO7OYOb4ehBFO7G5jphZxc3KA=",
+    "credential-type": "binding-secret",
+    "identityzone": "islm-c1-demo-1ml196ju",
+    "identityzoneid": "ebd2087b-182a-4023-aaa3-8c51f6db8fa8",
+    "sburl": "https://internal-xsuaa.authentication.eu11.hana.ondemand.com",
+    "subaccountid": "ebd2087b-182a-4023-aaa3-8c51f6db8fa8",
+    "tenantid": "ebd2087b-182a-4023-aaa3-8c51f6db8fa8",
+    "tenantmode": "dedicated",
+    "uaadomain": "authentication.eu11.hana.ondemand.com",
+    "url": "https://islm-c1-demo-1ml196ju.authentication.eu11.hana.ondemand.com",
+    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0NQA/NBqbuR4mXdS+g0g\nMBqNGRD3ecf0JsRe3qQEBxu3kdPXlta2j+hCZC2Dr31+k/dU8UtNS5s7T8vQmWdB\nSH/l2F/tfKbt5mJyur33KAU0pg5vu3Km+xYSOV1O2R77msQRTkA61W+enjJ42NYB\nv0Lwf69jVfEGJCUz//VnN7hEn2XdciR0u+pXGgZSracGfbEdmrocOqvn5/OVc9wI\nRIB7jtgmMC7KgUZdxIseysTQyzkImsHV157DMcS+0C1HSMBFbMZmvcBRNHJfEhPK\nX88U29jWKMERWMOVf3uIUCrszHUuu0vuELeV1wVi8rGcfppuuCvU2VGTT1xg3hmx\nxQIDAQAB\n-----END PUBLIC KEY-----",
+    "xsappname": "a25cca7b-e32b-4b9e-8799-bf619ad965b2!b5177|dar-std-production!b686",
+    "zoneid": "ebd2087b-182a-4023-aaa3-8c51f6db8fa8"
+  },
+  "url": "https://aiservices-dar.cfapps.eu11.hana.ondemand.com"
+}
+```
+
+### Train Artifact Details
+|  Dataset   | Dataset schema | 
+| ------------------- |  ------------------- | 
+| b464f4ae-4772-44e9-8154-aacf75952d21 | 68d68ffd-42b8-4c4b-a866-3cfb551936df |
 
 
