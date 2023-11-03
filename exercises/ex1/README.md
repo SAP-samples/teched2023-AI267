@@ -50,7 +50,7 @@ The Intelligent Scenarios app is used to create intelligent scenarios, revie
    This approach is commonly known as '**side-by-side**,' where the ML provider and the business application operate within separate stacks.
    <br>![](/exercises/ex1/images/9.png)
 11. Provide the required information in the screen:
-	1. **Intelligent Scenario Name**: Enter a unique name starting with Z, such as `Z_FI_PLANTYPE_###` where **###** is your attendee id.
+	1. **Intelligent Scenario Name**: Enter a unique name starting with Z, such as `Z_AI267_PLANTYPE_###` where **###** is your attendee id.
 	2. **Intelligent Scenario Description**: Enter a description for the Intelligent Scenario.
 	3. **Intelligent Scenario Type** as **Data Attribute Recommendation**  
    <br>![](/exercises/ex1/images/10.png)
