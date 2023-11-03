@@ -116,8 +116,7 @@ In this section, you will use the Intelligent Scenario Management app to perform
 4. Select the Version **3.0** and click on the **Train** button to trigger the training.
    <br>![](/exercises/ex1/images/29.png)
 5. Train dialog opens.
-   The values for Parameters will be defaulted and do not change it.
-   The Artifacts values for dataset and datasetSchema will be provided by the speaker.
+   The values for Parameters and Artifacts will be defaulted and do not change it.
    <br>![](/exercises/ex1/images/30.png)
 6. Click on **Train** button
    <br>![](/exercises/ex1/images/31.png)
