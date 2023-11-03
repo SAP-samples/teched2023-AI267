@@ -32,7 +32,7 @@ SAP HANA APL lets you build and apply different types of predictive models, such
 
 3. Click on **Do Not Show Again and Close** in the Onboarding Dialog <br>![](/exercises/ex0/images/3.png)
 4. Provide the required information in the screen:
-	1. **Intelligent Scenario Name**: Enter a unique name starting with Z, such as `Z_SEATOCC_FTCLAS_###` where **###** is your attendee id.
+	1. **Intelligent Scenario Name**: Enter a unique name starting with Z, such as `Z_TECHED_FTCLAS_###` where **###** is your attendee id.
 	2. **Intelligent Scenario Description**: Enter a description for the Intelligent Scenario. Intelligent Scenario Type, Algorithm and Machine Learning Library is automatically populated. 
 	<br>![](/exercises/ex0/images/4.png)
 
