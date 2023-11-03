@@ -24,6 +24,9 @@ Password will be shared in the session room by speakers.
 
 # For Attendees 001 to 008
 
+### Prediction class
+`ZCL_PLANTYPE_H0`
+
 ### DAR Service Key
 ```json
 {
@@ -61,6 +64,9 @@ Password will be shared in the session room by speakers.
 <br>
 
 # For Attendees 009 to 016
+
+### Prediction class
+`ZCL_PLANTYPE_H1`
 
 ### DAR Service Key
 ```json
@@ -100,6 +106,9 @@ Password will be shared in the session room by speakers.
 
 # For Attendees 017 to 024
 
+### Prediction class
+`ZCL_PLANTYPE_H2`
+
 ### DAR Service Key
 ```json
 {
@@ -138,6 +147,9 @@ Password will be shared in the session room by speakers.
 
 # For Attendees 025 to 032
 
+### Prediction class
+`ZCL_PLANTYPE_H3`
+
 ### DAR Service Key
 ```json
 {
@@ -174,6 +186,9 @@ Password will be shared in the session room by speakers.
 
 
 # For Attendees 033 to 040
+
+### Prediction class
+`ZCL_PLANTYPE_H4`
 
 ### DAR Service Key
 ```json
